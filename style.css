@@ -38,36 +38,10 @@ header .list-items{
    
     width: 100%;
     justify-content: space-between;
-    border: solid black 1px;
+    border: solid black 0px;
 }
-header .buttom{
-    align-self: center;
-    align-content: center;
-    width: 100px;
-    display: flex;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 11px;
-    font-weight: bold;
-    color: #fff;
-    margin: 0px 15px;
-    padding: 10px 35px;
-    border: 2px solid orange;
-    overflow: hidden;
-    position: relative;
-    &:before{
-        content: "";
-        position:absolute;
-        top:0%;
-        left:0%;
-        width:100%;
-        height:100%;
-        background-color: blue;
 
-        z-index: -1;
-        trasition:.7s ease
-    }
-}     
+     
 
 .list-items li a{
     color: #fff;
